@@ -2,8 +2,8 @@ def new_hash
   return Hash.new
 end
 
-def actor(name)
-  a = {:name => "name"}
+def actor
+  a = {:name => "Dwane the Rock Johnson"}
   a[:name] = name
   return a
 end
