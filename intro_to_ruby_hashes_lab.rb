@@ -2,8 +2,10 @@ def new_hash
   return Hash.new
 end
 
-def actor
-
+def actor(name)
+  a = {:name => "name"}
+  a[:name] = name
+  return a
 end
 
 def monopoly
