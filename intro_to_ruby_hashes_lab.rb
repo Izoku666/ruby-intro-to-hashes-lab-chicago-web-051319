@@ -4,7 +4,6 @@ end
 
 def actor
   a = {:name => "Dwane the Rock Johnson"}
-  a[:name] = name
   return a
 end
 
